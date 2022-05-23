@@ -1,4 +1,5 @@
 
+
 var pjs  = new PointJS(1880 , 910 , {backgroundColor : 'red'})  
 var game = pjs.game;
  var rect = game.newRectObject(   { 
@@ -20,12 +21,3 @@ var game = pjs.game;
     console.log(fps),
     3000
   );
-  VK.init(function() {
-    var initgame = function ()
-    {}
-    var log = js.system.log;
-    log("ok")
-    initgame
-  }, function() {
-    log("ofsk")
-  }, '5.131');
